@@ -2,6 +2,8 @@
 
 Este es el frontend de una aplicación web desarrollada con **React 19** y **Vite 6**, orientada a la gestión de usuarios y subida de imágenes. Utiliza control de acceso por roles (cliente, fotógrafo y administrador), integración con JWT y notificaciones con Toastify y SweetAlert2.
 
+el frontend esta desplegado en un cpanel, subiendo directamente el build de mi proyecto, tambien modifique el .htaccess para que entre a cualquier ruta "sin tener que pasar por la pagina princiap" - > [fotografoscatamarca.com](https://fotografoscatamarca.com)
+
 ## 🚀 Tecnologías utilizadas
 
 - ⚛️ **React 19** con **Vite**
