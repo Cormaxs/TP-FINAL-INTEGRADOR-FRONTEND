@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import "bootstrap-icons";
+
+:root {
+    --color-base-claro: #7f79f4;
+    --color-base-oscuro: #6961ff;
+    --color-primario: #2f1db3;
+    --color-secundario: #432dd7;
+    --color-acento: #1447e6;
+    --color-boton: #5741fe;
+    --color-primario-hover: #2f1db3;
+    --color-fondo-tarjeta: #ffffff;
+  
+    --texto-btn: #ffffff;
+    --texto-claro: #f9fafb;
+    --texto-oscuro: #111827;
+    --color-texto: #333;
+    --color-fondo: #fff;
+    --color-gris-suave: #f9f9f9;
+  
+    --hover-claro: #e5e7eb;
+    --verde-suave: #bbf7d0;
+    --verde-fuerte: #22c55e;
+  }
+  
+  
+
+  /*modo dark*/
+  body {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+
+  body.dark-mode  {
+    background-color: #1e1b20;
+    color: #e5e5e5;
+}
+.dark-mode #servicios-home > div{
+  background-color: rgba(68, 99, 134, 0.3);
+}
+.dark-mode #servicios-home > div  h3{
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode footer  {
+  background-color: #1e1b20;
+  color: #e5e5e5;
+}
+
+.dark-mode #btn-ver-perfil-completo {
+background: var(--color-base-claro);
+}
+
+.dark-mode #estado-perfil{
+  color: #000000;
+  font-weight: normal;
+}
+
+.dark-mode #imageView-categorias{
+  background: #000000;
+}
+
+.dark-mode nav { 
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+.dark-mode div {
+  background-color: #00000000;
+  color: #fff;
+}
+
+
+
+.dark-mode a {
+    color: #e5e5e5;
+}
+.dark-mode #btn-home-register {
+  color: #e5e5e5;
+  background: var(--color-base-oscuro)
+}
+
+.dark-mode p{
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.dark-mode  span{
+  color: #ffffff;
+} 
+.dark-mode h1 {
+  color: var(--color-secundario);
+}
+.dark-mode h2 {
+  color: #fff;
+}
+
+.dark-mode div > a {
+
+  color: #ffffff;
+}
+
+.dark-mode input{
+  color: #ffffff;
+}
+
+.dark-mode input::placeholder{
+  color: #d5d5d5;
+}
+.dark-mode label{
+  color: #fff;
+}
+
+
+.dark-mode .shadow-md {
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* más claro en dark mode */
+}
+
+
+

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /update-password
+Disallow: /updateUser
+Disallow: /createCategoria
+Disallow: /upImg/portada
+Disallow: /upImg/perfil
+
+Sitemap: https://www.fotografoscatamarca.com/sitemap.xml
+
+
